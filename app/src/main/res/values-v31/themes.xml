@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    theme for api 12 and above -->
+
+    <style name="SplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splashicon</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+
+    </style>
+
+
+</resources>

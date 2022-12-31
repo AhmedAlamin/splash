@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    theme for api 11 and down -->
+    <style name="Theme.Splash" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="SplashScreenTheme"  parent="Theme.Splash" >
+        <item name="android:windowBackground">@drawable/bg_splash_forapi_12_andabove</item>
+
+    </style>
+</resources>
